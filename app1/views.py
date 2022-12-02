@@ -95,6 +95,8 @@ class createuserview(CreateView):
     template_name='create.html'
     success_url='/cbread/'
 
+
+#------predefined update view-------------------
 class updateuserview(UpdateView):
     model=User
     form_class=userform
